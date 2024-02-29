@@ -19,7 +19,13 @@
             // Problem 2
 
             Console.Write("Enter a row width: ");
+            int rowWidth = int.Parse(Console.ReadLine());
 
+            // Create problem 2 for loop
+            for (int i = 1; i <= rowWidth; i++)
+            {
+                Console.Write("*");
+            }
         }
     }
 }
